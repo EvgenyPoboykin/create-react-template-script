@@ -2,7 +2,7 @@
 
 This script for Create/Remove React Component.
 
-### In teplates use dependencies
+### In templates use dependencies
 styled-component, react hooks
 
 ### Available Scripts
