@@ -1,6 +1,9 @@
 ## create-react-component-script
 
-This script for Create/Remove React Component (styled-component, React Hooks)
+This script for Create/Remove React Component.
+
+### In teplates use dependencies
+styled-component, react hooks
 
 ### Available Scripts
 
