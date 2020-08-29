@@ -19,7 +19,7 @@ This project was React (with used styled-component and React Hooks)
 "rc": "node template/rc.js ${nameComponent}"
 ```
 
-4. Usage
+## Use Script
 
 Create Component
 
