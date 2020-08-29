@@ -33,6 +33,31 @@ Remove Component
 npm run rc AppComponent
 ```
 
-### Advanced Configuration
+### Template
 
 All template string save in template/templates.js
+
+index.js
+```javascript
+import nameComponent from './nameComponent';
+export default nameComponent;
+```
+
+nameComponent.js
+```javascript
+import React, { memo } from 'react';
+import { Container } from './style';
+    
+const nameComponent = memo(() => {
+    return <Container></Container>;
+});
+    
+export default nameComponent;
+```
+
+style.js
+```javascript
+import styled from 'styled-components';
+
+export const Container = styled.div.attrs({ className: 'nameComponent__container" })``;
+```
