@@ -1,6 +1,8 @@
+## create-react-component
+
 This script for Create/Remove React Component (styled-component, React Hooks)
 
-## Available Scripts
+### Available Scripts
 
 1. Copy template folder in a root directory of your project.
 
@@ -19,7 +21,7 @@ This script for Create/Remove React Component (styled-component, React Hooks)
 "rc": "node template/rc.js ${nameComponent}"
 ```
 
-## Use Script
+### Use Script
 
 Create Component
 
