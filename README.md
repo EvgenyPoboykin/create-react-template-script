@@ -3,7 +3,7 @@
 This script for Create/Remove React Component.
 
 ### In templates use dependencies
-styled-component, react hooks
+styled-component
 
 ### Available Scripts
 
