@@ -1,10 +1,10 @@
-This project was React (with used styled-component and React Hooks)
+This script for Create/Remove React Component (styled-component, React Hooks)
 
 ## Available Scripts
 
 1. Copy template folder in a root directory of your project.
 
-2. Add path of "components" directory in package.json - .
+2. Add path of "components" directory in package.json.
 
 ```json
 "create_components_path": "./your/components/path/directory/",
