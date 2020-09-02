@@ -14,9 +14,7 @@ This project was React (with used styled-component and React Hooks)
    cc = create-component
    rc = remove-component
 
-   nameComponent = name component
-   createLogicFile ( "l" ) - create logic file for component
-   formatFiles (default ".js") - if you using TS - "tsx"
+   nameComponent = name component, createLogicFile ( "l" ) - create logic file for component, formatFiles (default ".js") - if you using TS - "tsx"
 
 ```json
 "cc": "node template/cc.js ${nameComponent} ${createLogicFile} ${formatFiles}",
