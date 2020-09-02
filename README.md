@@ -26,7 +26,7 @@ This project was React (with used styled-component and React Hooks)
 Create Component
 
 ```bash
-npm run cc AppComponent
+npm run cc AppComponent l tsx
 ```
 
 Remove Component
