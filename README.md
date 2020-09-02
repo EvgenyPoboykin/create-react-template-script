@@ -1,15 +1,10 @@
-## create-react-component-script
+This project was React (with used styled-component and React Hooks)
 
-This script for Create/Remove React Component.
-
-### In templates use dependencies
-styled-component
-
-### Available Scripts
+## Available Scripts
 
 1. Copy template folder in a root directory of your project.
 
-2. Add path of "components" directory in package.json.
+2. Add path of "components" directory in package.json - .
 
 ```json
 "create_components_path": "./your/components/path/directory/",
@@ -19,12 +14,16 @@ styled-component
    cc = create-component
    rc = remove-component
 
+    nameComponent = name component
+    createLogicFile ( "l" ) - create logic file for component
+    formatFiles (default ".js") - if you using TS - "tsx"
+
 ```json
-"cc": "node template/cc.js ${nameComponent}",
+"cc": "node template/cc.js ${nameComponent} ${createLogicFile} ${formatFiles}",
 "rc": "node template/rc.js ${nameComponent}"
 ```
 
-### Use Script
+4. Usage
 
 Create Component
 
@@ -38,31 +37,6 @@ Remove Component
 npm run rc AppComponent
 ```
 
-### Template
+### Advanced Configuration
 
 All template string save in template/templates.js
-
-index.js
-```javascript
-import nameComponent from './nameComponent';
-export default nameComponent;
-```
-
-nameComponent.js
-```javascript
-import React, { memo } from 'react';
-import { Container } from './style';
-    
-const nameComponent = memo(() => {
-    return <Container></Container>;
-});
-    
-export default nameComponent;
-```
-
-style.js
-```javascript
-import styled from 'styled-components';
-
-export const Container = styled.div.attrs({ className: 'nameComponent__container" })``;
-```
